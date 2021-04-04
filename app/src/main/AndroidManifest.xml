@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.googleanalyticsassignment">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,6 +11,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleAnalyticsAssignment">
+        <activity android:name=".ShoeshActivity"></activity>
+        <activity android:name=".SmartTvActivity" />
+        <activity android:name=".ShirtshActivity" />
+        <activity android:name=".ShawermaaActivity" />
+        <activity android:name=".PizzahActivity" />
+        <activity android:name=".LaptophpActivity" />
+        <activity android:name=".KebabhActivity" />
+        <activity android:name=".IphonexActivity" />
+        <activity android:name=".FoodhActivity" />
+        <activity android:name=".ElectronichActivity" />
+        <activity android:name=".DresseshActivity" />
+        <activity android:name=".ClotheshActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

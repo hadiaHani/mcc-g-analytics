@@ -4,6 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ElectronichActivity">
+    tools:context=".ElectronichActivity"
+    android:background="@drawable/bc">
+
+    <Button
+        android:id="@+id/laptop"
+        android:layout_width="157dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="136dp"
+        android:layout_marginRight="136dp"
+        android:text="laptop hp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/iphone"
+        android:layout_width="158dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:text="iphone x"
+        app:layout_constraintBottom_toTopOf="@+id/smart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/laptop"
+        app:layout_constraintVertical_bias="0.493" />
+
+    <Button
+        android:id="@+id/smart"
+        android:layout_width="165dp"
+        android:layout_height="43dp"
+        android:layout_marginBottom="292dp"
+        android:text="smart tv"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
